@@ -1,0 +1,38 @@
+# Python & Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Node & Frontend
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# StreamCut Studio Local Media Storage & Models
+backend/storage/sources/*
+!backend/storage/sources/.gitkeep
+backend/storage/proxies/*
+!backend/storage/proxies/.gitkeep
+backend/storage/thumbnails/*
+!backend/storage/thumbnails/.gitkeep
+backend/storage/subtitles/*
+!backend/storage/subtitles/.gitkeep
+backend/storage/exports/*
+!backend/storage/exports/.gitkeep
+backend/storage/temp/*
+!backend/storage/temp/.gitkeep
+backend/storage/models/*
+!backend/storage/models/.gitkeep
+backend/storage/*.db
+backend/storage/*.db-journal
+
+# Environment & OS files
+.env
+.DS_Store
+Thumbs.db
